@@ -8,67 +8,18 @@
     <title>Document</title>
 </head>
 <body>
-  <div class= "container-fluid">
-    <h4>Complex Gallery</h4>
-    <div class= "row d-inline-flex">
-       <!-- Gallery Item 1 -->
-       <div class ="col-12 col-sm-6 col-md-4 p-2">
-          <div class="d-flex flex-column text-center border height100">
-             <div>
-                <img src="../images/animal1.png"/>
-             </div>
-             <h2>Sheep</h2>
-             <p>Info..</p>
-          </div>
-       </div>
-       <!-- Gallery Item 2 -->
-       <div class ="col-12 col-sm-6 col-md-4 p-2">
-          <div class="d-flex flex-column text-center border height100">
-             <div>
-                <img src="../images/animal2.png"/>
-             </div>
-             <h2>Horse</h2>
-          </div>
-       </div>
-       <!-- Gallery Item 3 -->
-       <div class ="col-12 col-sm-6 col-md-4 p-2">
-          <div class="d-flex flex-column text-center border height100">
-             <div>
-                <img src="../images/animal3.png"/>
-             </div>
-             <h2>Duck</h2>
-          </div>
-       </div>
-       <!-- Gallery Item 4 -->
-       <div class ="col-12 col-sm-6 col-md-4 p-2">
-          <div class="d-flex flex-column text-center border height100">
-             <div>
-                <img src="../images/animal4.png"/>
-             </div>
-             <h2>Goat</h2>
-          </div>
-       </div>
-       <!-- Gallery Item 5 -->
-       <div class ="col-12 col-sm-6 col-md-4 p-2">
-          <div class="d-flex flex-column text-center border height100">
-             <div>
-                <img src="../images/animal5.png"/>
-             </div>
-             <h2>Chicken</h2>
-          </div>
-       </div>
-       <!-- Gallery Item 6 -->
-       <div class ="col-12 col-sm-6 col-md-4 p-2">
-          <div class="d-flex flex-column text-center border height100">
-             <div>
-                <img src="../images/animal6.png"/>
-             </div>
-             <h2>Cow</h2>
-          </div>
-       </div>
-    </div>
- </div>
-
+   <form class="form-inline" action="/action_page.php">
+      <label for="email">Email address:</label>
+      <input type="email" class="form-control" placeholder="Enter email" id="email">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" placeholder="Enter password" id="pwd"><br>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox"> Remember me
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
 
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

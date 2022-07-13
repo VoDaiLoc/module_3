@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+#headerImage > .col-2{
+    height: 100px;
+    background-color: aqua;
+}
+#headerImage > .col-10{
+    height: 100px;
+    background-color: blue;
+}
+.myrow{
+    font-size: 20px;
+    /* margin: 0 !important; */
+    /* padding: 40px; */
+    padding: 1em;
+}
+.myrow > .col-2{
+    /* margin: 0 !important; */
+   margin-right: 5px;
+}
+.col-2 {
+    max-width: 15%;
+}
